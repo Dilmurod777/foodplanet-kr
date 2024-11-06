@@ -69,6 +69,7 @@ class CI_Session {
 	 */
 	public function __construct(array $params = array())
 	{
+
 		// No sessions under CLI
 		if (is_cli())
 		{
