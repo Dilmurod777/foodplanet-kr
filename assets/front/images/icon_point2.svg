@@ -1,0 +1,30 @@
+<svg width="78" height="78" viewBox="0 0 78 78" xmlns="http://www.w3.org/2000/svg">
+    <defs>
+        <filter x="-29.6%" y="-29.6%" width="159.3%" height="159.3%" filterUnits="objectBoundingBox" id="wwdlspt19a">
+            <feOffset dy="2" in="SourceAlpha" result="shadowOffsetOuter1"/>
+            <feMorphology radius="1" in="SourceAlpha" result="shadowInner"/>
+            <feOffset dy="2" in="shadowInner" result="shadowInner"/>
+            <feComposite in="shadowOffsetOuter1" in2="shadowInner" operator="out" result="shadowOffsetOuter1"/>
+            <feGaussianBlur stdDeviation="3" in="shadowOffsetOuter1" result="shadowBlurOuter1"/>
+            <feColorMatrix values="0 0 0 0 0.099659503 0 0 0 0 0.188335738 0 0 0 0 0.330644248 0 0 0 0.16 0" in="shadowBlurOuter1" result="shadowMatrixOuter1"/>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"/>
+                <feMergeNode in="SourceGraphic"/>
+            </feMerge>
+        </filter>
+    </defs>
+    <g filter="url(#wwdlspt19a)" transform="translate(12 12)" fill="none" fill-rule="evenodd">
+        <path d="M1.5 1.5h51v51h-51z"/>
+        <g transform="translate(8.25 12)">
+            <rect fill="#00CFCA" width="42" height="34.5" rx="1"/>
+            <path d="M12 0h29a1 1 0 0 1 1 1v32.5a1 1 0 0 1-1 1H12V0z" fill="#CCF5F4"/>
+            <g fill="#00CFCA">
+                <path d="M15 30.75h1.5v1.5H15zM19.5 30.75H21v1.5h-1.5zM24 30.75h1.5v1.5H24z"/>
+            </g>
+            <path fill="#00CFCA" d="M23.25 0h7.5v12l-1.2-.6-1.275.6L27 11.4l-1.275.6-1.35-.6-1.125.6z"/>
+        </g>
+        <g stroke="#9299A5">
+            <path d="M1.73 18.75h12M4.73 30.75h9M3.23 24.75h10.5M1.73 36.75h12"/>
+        </g>
+    </g>
+</svg>

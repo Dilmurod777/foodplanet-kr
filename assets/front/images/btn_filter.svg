@@ -1,0 +1,19 @@
+<svg width="20" height="20" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+    <g fill="none" fill-rule="evenodd">
+        <path d="M2 1.9h16v16H2z"/>
+        <g stroke="#4E5968" stroke-width="1.5">
+            <g transform="translate(2 1.5)">
+                <path d="M4.8 2H16M0 2h2.4"/>
+                <circle cx="3.6" cy="2" r="1.25"/>
+            </g>
+            <g transform="translate(2 14.3)">
+                <path d="M4.8 2H16M0 2h2.4"/>
+                <circle cx="3.6" cy="2" r="1.25"/>
+            </g>
+            <g transform="translate(2 7.9)">
+                <path d="M0 2h11.2M13.6 2H16"/>
+                <circle cx="12.4" cy="2" r="1.25"/>
+            </g>
+        </g>
+    </g>
+</svg>

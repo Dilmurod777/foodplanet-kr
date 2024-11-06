@@ -1,0 +1,24 @@
+<svg width="54" height="54" viewBox="0 0 54 54" xmlns="http://www.w3.org/2000/svg">
+    <g fill="none" fill-rule="evenodd">
+        <path d="M2 2h50v50H2z"/>
+        <path d="M4 10h46v39a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V10z" fill="#00CFCA"/>
+        <path d="M27 37a5 5 0 0 1 5 5v9H22v-9a5 5 0 0 1 5-5z" fill="#CCF5F4"/>
+        <g fill="#FFF" opacity=".5">
+            <path d="M8 33h2v5H8zM14 33h2v5h-2z"/>
+        </g>
+        <g fill="#FFF" opacity=".5">
+            <path d="M8 41h2v5H8zM14 41h2v5h-2z"/>
+        </g>
+        <g fill="#FFF" opacity=".5">
+            <path d="M38 33h2v5h-2zM44 33h2v5h-2z"/>
+        </g>
+        <g fill="#FFF" opacity=".5">
+            <path d="M38 41h2v5h-2zM44 41h2v5h-2z"/>
+        </g>
+        <path fill="#9299A5" d="M2 10h50V8H2z"/>
+        <path d="M4 8h46V5a2 2 0 0 0-2-2H6a2 2 0 0 0-2 2v3z" fill="#CCD2DD"/>
+        <text font-family="NotoSansKR-Bold, Noto Sans KR" font-size="10" font-weight="bold" fill="#FFF" transform="translate(2 3)">
+                                    <tspan x="7.665" y="21">BRAND</tspan>
+                                </text>
+    </g>
+</svg>

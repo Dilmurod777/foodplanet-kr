@@ -1,0 +1,35 @@
+/******************** 
+	도구리 guide.css
+	ver1.0
+	2022.10.28
+	임수경
+
+********************/
+@charset "UTF-8";
+@import "reset.css";
+/* common */
+html,body {font-family:"gulim";font-weight:normal;background:#111;}
+img {max-width:100%;}
+.container {width:100%;max-width:700px;margin:0 auto;background:#fff;min-height:100vh;}
+.dim {position:fixed;top:0;left:0;right:0;bottom:0;background:rgba(0,0,0,0.6);z-index:2000;display:none;}
+html.is-opened {overflow:hidden;}
+html.is-opened .dim {display:block;}
+.guide-wrap {position:relative;width:100%;padding:10% 5%;box-sizing:border-box;}
+.guide-wrap .guide-box+.guide-box {margin-top:25px;}
+.guide-wrap h2 {font-weight:700;color:#000;font-size:15px;margin-bottom:5px;}
+.guide-wrap .guide-box .btn-sample {display:inline-block;border:2px solid #999;padding:10px 20px;border-radius:5px;}
+.guide-wrap .guide-box dl {font-size:12px;}
+.guide-wrap .guide-box dl dt {font-weight:bold;}
+.guide-wrap .guide-box dl+dl {margin-top:10px;}
+/* 레이어팝업 common */
+.tip-wrap {position:relative;}
+.layerpop {display:none;position:fixed;top:50%;left:50%;transform:translate(-50%,-50%);z-index:2001;max-width:700px;background:#ffbecf;}
+.layerpop.is-opened {display:block;}
+.layerpop .type-default {position:absolute;top:2%;right:2%;width:40px;height:20px;font-size:12px;text-align:center;line-height:20px;background:#000;color:#fff;border-radius:5px;}
+.layerpop .sample {position:relative;width:100%;min-width:200px;height:100px;text-align:center;}
+.layerpop .sample>div {position:absolute;top:50%;left:0;width:100%;padding:10px;box-sizing:border-box;transform:translateY(-50%);}
+.layerpop.type-default {border-radius:10px;overflow:hidden;}
+.layerpop.type-full {width:100%;height:100vh;}
+.layerpop.type-full .sample>div {position:relative;padding-top:50%;}
+.layerpop.type-tooltip {position:absolute;top:0;left:0;transform:translate(0,0)}
+.layerpop.type-btm {width:100%;top:auto;bottom:0;transform:translate(-50%,0);border-radius:10px 10px 0 0;}

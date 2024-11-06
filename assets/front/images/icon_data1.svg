@@ -1,0 +1,24 @@
+<svg width="54" height="54" viewBox="0 0 54 54" xmlns="http://www.w3.org/2000/svg">
+    <g fill="none" fill-rule="evenodd">
+        <path d="M2 2h50v50H2z"/>
+        <path d="M10.195 18H33a2 2 0 0 1 2 2v20a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2v-8.496a2 2 0 0 1 .24-.948l6.194-11.504A2 2 0 0 1 10.194 18z" fill="#CCD2DD"/>
+        <path fill="#00CFCA" d="M2 31h15v1H2zM20 8h30a2 2 0 0 1 2 2v30a2 2 0 0 1-2 2H18V10a2 2 0 0 1 2-2z"/>
+        <g transform="translate(10 38)">
+            <circle fill="#9299A5" cx="6" cy="6" r="6"/>
+            <circle fill="#D3D4D8" cx="6" cy="6" r="3"/>
+        </g>
+        <g transform="translate(36 38)">
+            <circle fill="#9299A5" cx="6" cy="6" r="6"/>
+            <circle fill="#D3D4D8" cx="6" cy="6" r="3"/>
+        </g>
+        <g transform="translate(27 13)">
+            <g transform="translate(5)">
+                <circle fill="#CCF5F4" cx="7" cy="7" r="7"/>
+                <g stroke="#00CFCA">
+                    <path d="M7 3v8M3 7h8M4.172 4.172l5.656 5.656M9.828 4.172 4.172 9.828"/>
+                </g>
+            </g>
+            <circle fill="#CCF5F4" cx="2" cy="15" r="2"/>
+        </g>
+    </g>
+</svg>

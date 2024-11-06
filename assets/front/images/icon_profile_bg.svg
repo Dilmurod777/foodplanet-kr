@@ -1,0 +1,28 @@
+<svg width="24" height="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <defs>
+        <circle id="2uh4lx98ia" cx="12" cy="12" r="12"/>
+        <circle id="uutecksiqd" cx="12" cy="12" r="12"/>
+        <filter x="-66.7%" y="-48.5%" width="233.3%" height="197%" filterUnits="objectBoundingBox" id="9bm1t0n26b">
+            <feOffset in="SourceAlpha" result="shadowOffsetOuter1"/>
+            <feGaussianBlur stdDeviation="4" in="shadowOffsetOuter1" result="shadowBlurOuter1"/>
+            <feColorMatrix values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.2 0" in="shadowBlurOuter1" result="shadowMatrixOuter1"/>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"/>
+                <feMergeNode in="SourceGraphic"/>
+            </feMerge>
+        </filter>
+    </defs>
+    <g fill="none" fill-rule="evenodd">
+        <mask id="poyaszptqc" fill="#fff">
+            <use xlink:href="#2uh4lx98ia"/>
+        </mask>
+        <use fill="#CFD3D9" xlink:href="#2uh4lx98ia"/>
+        <g filter="url(#9bm1t0n26b)" mask="url(#poyaszptqc)" fill="#FFF">
+            <g transform="translate(0 5)">
+                <circle cx="12" cy="4" r="4"/>
+                <circle cx="12" cy="21" r="12"/>
+            </g>
+        </g>
+        <circle stroke="#CFD3D9" cx="12" cy="12" r="11.5"/>
+    </g>
+</svg>
